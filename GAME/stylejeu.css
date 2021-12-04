@@ -1,0 +1,414 @@
+@font-face {
+    font-family: "Pixel";
+    src: url("fonts/Fipps-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+td{
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    background-image: url(img/herbe.png);
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+body{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/fond.png);
+    color: transparent;
+}
+
+#vide {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: solid thin red;
+    text-align: center;
+}
+
+.joueur1{
+    background-color: red;
+}
+
+.joueur2{
+    background-color: yellow;
+}
+
+
+.arbre1{
+    background-image: url(img/Arbre1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.rocher{
+    background-image: url(img/Herbe-rocher.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railg1{
+    background-image: url(img/Rail_droitG.png);
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-size: cover;
+}
+
+.railg2{
+    background-image: url(img/Rail_droitG2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railtg1{
+    background-image: url(img/Rail_tourneG1.png);
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-size: cover;
+}
+
+.railtg2{
+    background-image: url(img/Rail_tourneG2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railtg3{
+    background-image: url(img/Rail_tourneG3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railtg4{
+    background-image: url(img/Rail_tourneG4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.rail1{
+    background-image: url(img/Rail_droit.png);
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-size: cover;
+}
+
+.rail2{
+    background-image: url(img/Rail_droit2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railt1{
+    background-image: url(img/Rail_tourne.png);
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-size: cover;
+}
+
+.railt2{
+    background-image: url(img/Rail_tourne2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railt3{
+    background-image: url(img/Rail_tourne3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railt4{
+    background-image: url(img/Rail_tourne4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railp1{
+    background-image: url(img/raild_pont1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railp2{
+    background-image: url(img/raild_pont2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railtp1{
+    background-image: url(img/railt_pont1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railtp2{
+    background-image: url(img/railt_pont2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railtp3{
+    background-image: url(img/railt_pont3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.railtp4{
+    background-image: url(img/railt_pont4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.gare1{
+    background-image: url(img/Gare1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.gare2{
+    background-image: url(img/Gare2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pont{
+    background-image: url(img/Pont.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.eau{
+    background-image: url(img/Eau.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.eau2{
+    background-image: url(img/Eau2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau1_1{
+    background-image: url(img/Herbe-Eau.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau1_2{
+    background-image: url(img/Herbe-Eau1.2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau1_3{
+    background-image: url(img/Herbe-Eau1.3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau1_4{
+    background-image: url(img/Herbe-Eau1.4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau1_5{
+    background-image: url(img/Herbe-Eau1.5.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau1_6{
+    background-image: url(img/Herbe-Eau1.6.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau1_7{
+    background-image: url(img/Herbe-Eau1.7.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau1_8{
+    background-image: url(img/Herbe-Eau1.8.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.herbeeau2_1{
+    background-image: url(img/Herbe-Eau2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau2_2{
+    background-image: url(img/Herbe-Eau2.2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau2_3{
+    background-image: url(img/Herbe-Eau2.3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.herbeeau2_4{
+    background-image: url(img/Herbe-Eau2.4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.boueeau1{
+    background-image: url(img/boue-eau1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.boueeau2{
+    background-image: url(img/boue-eau2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.boueeau3{
+    background-image: url(img/boue-eau3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.boueeau4{
+    background-image: url(img/boue-eau4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.cowboy{
+    background-image: url(img/Cowboy.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+#inventaire{
+    background-color: rgba(72, 68, 64, 0.5);
+    border-radius: 10px;
+    background-repeat: repeat-y;
+    height: 640px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Pixel';
+    text-shadow: 0px 0px 1px black;
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+}
+
+#current{
+    display: flex;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+}
+
+button{
+    font-family: 'Pixel';
+    background-color: rgba(72, 68, 64, 0.5);
+    height: 320px;
+    width: 100px;
+    margin-top: 10%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.finish1{
+    background-image: url(img/Rail_droit.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.finish2{
+    background-image: url(img/Rail_droit2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.finish3{
+    background-image: url(img/Rail_tourne.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.finish4{
+    background-image: url(img/Rail_tourne4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.over{
+    position: absolute;
+    border: 5px solid black;
+    background-color:  rgba(72, 68, 64, 0.5);
+    font-family: 'Pixel';
+    text-shadow: 0px 0px 1px red;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.win{
+    position: absolute;
+    border: 5px solid black;
+    background-color:  rgba(72, 68, 64, 0.5);
+    font-family: 'Pixel';
+    text-shadow: 0px 0px 1px black;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.next{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

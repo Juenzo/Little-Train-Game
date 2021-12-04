@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Little Train</title>
+        <link rel="stylesheet" href="Font/fontawesome/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+        
+        
+        <div class="side-bar">
+            <!--Navigation burger-->
+            <div id="bouton" class="bouton"></div>
+            <div id="fullscreen"></div>
+        </div>
+
+        <h1>THE LITTLE TRAIN</h1>
+
+        
+        <div class="container">
+            <div id="picture"></div>
+            
+            <div rel='Play' class='Menu' data-text='PLAY'><a href="menu.html" >PLAY</a></div>
+            <div rel='Niveau' class='Menu' data-text='CREATE'><a href="creator.html"  >CREATE</a></div>
+            <div rel='Histoire' class='Menu' data-text='STORY'><a href="story.html"  >STORY</a></div>
+            
+        </div>
+
+        <div class="fin">
+
+            <article>
+                <address>
+                    <h2 class=text>Our Coordinates</h2>
+                    
+                    <p><a href="https://www.google.com/maps/place/3617+S+161st+Cir,+Omaha,+NE+68130,+%C3%89tats-Unis/@41.2228207,-96.1676823,17.25z/data=!4m8!1m2!2m1!1sEntreprise+The+Little+Train!3m4!1s0x8793f16efc169aa7:0x1e90531c472a8706!8m2!3d41.2234542!4d-96.1662666">
+                        3617 S 161st Cir,<br> Omaha,<br> NE 68130,<br> États-Unis</a></p>
+                    <p></p>
+                </address>
+            </article>
+
+            <article>
+                <h2 class="text">Stay connected</h2>
+                
+                <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/home?lang=fr"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/?hl=fr&gl=FR"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tripadvisor.fr/"><i class="fab fa-tripadvisor"></i></a>
+            </article>
+    </div>
+
+        <footer>
+            <p>&copy; 2021 - The Little train </p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".bouton").click(function(){
+                $(".side-bar").toggleClass("open");
+                });
+                
+            });
+        </script>
+        <script>
+            function toggleFullscreen(elem) {
+              elem = elem || document.documentElement;
+            
+              if (!document.fullscreenElement && !document.mozFullScreenElement &&
+                !document.webkitFullscreenElement && !document.msFullscreenElement) {
+                if (elem.requestFullscreen) {
+                  elem.requestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                  elem.msRequestFullscreen();
+                } else if (elem.mozRequestFullScreen) {
+                  elem.mozRequestFullScreen();
+                } else if (elem.webkitRequestFullscreen) {
+                  elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                }
+              } else {
+                if (document.exitFullscreen) {
+                  document.exitFullscreen();
+                } else if (document.msExitFullscreen) {
+                  document.msExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                  document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                  document.webkitExitFullscreen();
+                }
+              }
+            }
+            
+            document.getElementById('fullscreen').addEventListener('click', function() {
+              toggleFullscreen();
+            });
+            </script>    <script>
+            function toggleFullscreen(elem) {
+              elem = elem || document.documentElement;
+            
+              if (!document.fullscreenElement && !document.mozFullScreenElement &&
+                !document.webkitFullscreenElement && !document.msFullscreenElement) {
+                if (elem.requestFullscreen) {
+                  elem.requestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                  elem.msRequestFullscreen();
+                } else if (elem.mozRequestFullScreen) {
+                  elem.mozRequestFullScreen();
+                } else if (elem.webkitRequestFullscreen) {
+                  elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                }
+              } else {
+                if (document.exitFullscreen) {
+                  document.exitFullscreen();
+                } else if (document.msExitFullscreen) {
+                  document.msExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                  document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                  document.webkitExitFullscreen();
+                }
+              }
+            }
+            
+            document.getElementById('fullscreen').addEventListener('click', function() {
+              toggleFullscreen();
+            });
+            </script>
+    </body>
+</html>

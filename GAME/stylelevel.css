@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Pixel";
+    src: url("Font/Fipps-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Pixeled";
+    src: url("Font/fontawesome/webfonts/Pixeled.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "retro";
+    src: url("Font/fontawesome/webfonts/Retro\ Gaming.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.swiper-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/fond.png);
+    color: #000;
+    min-height: 100vh;
+}
+.container{
+    position: absolute;     
+    top: 50px;
+    font-family: "retro";
+    font-size: 5em;
+    letter-spacing: 15px;
+    color:  #FF8C00;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite
+}
+@keyframes animate{
+    0%{
+        color: #FF8C00;
+        text-shadow: 0 0 5px #FFA500;
+    }
+    100%{
+        color:#fff;
+        text-shadow: 0 0 10px #FFA500,
+        0 0 20px #FFA500,
+        0 0 40px #FFA500,
+        0 0 80px #FFA500,
+        0 0 160px #FFA500;
+    }
+}
+.swiper-container {
+    font-family: "retro";
+    font-size: 14px;
+    width: 90%;
+    height: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 1s;
+    
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+}
+.swiper-container:hover{
+    transform:scale(1.1);
+}
+.swiper-button-prev{
+    padding:20vh;
+}
+.swiper-button-next{
+    padding:20vh;
+}
+
+
+.niveau1{
+    visibility: hidden;
+}
+
+.niveau2{
+    visibility: hidden;
+}

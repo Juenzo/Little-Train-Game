@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Pixel";
+    src: url("Font/Fipps-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Pixeled";
+    src: url("Font/fontawesome/webfonts/Pixeled.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "retro";
+    src: url("Font/fontawesome/webfonts/Retro\ Gaming.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.story{
+    position: absolute;     
+    top: 50px;
+    font-family: "retro";
+    font-size: 5em;
+    letter-spacing: 15px;
+    color:  #FF8C00;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        color: #FF8C00;
+        text-shadow: 0 0 5px #FFA500;
+    }
+    100%{
+        color:#fff;
+        text-shadow: 0 0 10px #FFA500,
+        0 0 20px #FFA500,
+        0 0 40px #FFA500,
+        0 0 80px #FFA500,
+        0 0 160px #FFA500;
+    }
+}
+@font-face {
+    font-family: "Pixel";
+    src: url("Font/Fipps-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+
+body{
+    background-image: url(Image/landscape.png);
+    background-size: contain;
+    background-size: 100% 270%;
+    background-repeat: no-repeat;
+    font-family: "Pixel";
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.text{
+    position: relative;
+    top: 100px;
+    font-family: "Pixel";
+    font-size: 10px;
+}
+.text1{
+    position: relative;
+    top: 20px;
+    font-family: "Pixel";
+    font-size: 10px;
+}
+.text2{
+    position: relative;
+    top: 50px;
+    font-family: "Pixel";
+    font-size: 10px;
+}
+.text3{
+    position: relative;
+    top: 80px;
+    font-family: "Pixel";
+    font-size: 10px;
+}
+.text4{
+    position: relative;
+    top: 110px;
+    font-family: "Pixel";
+    font-size: 10px;
+}
+.text5{
+    position: relative;
+    top: 140px;
+    font-family: "Pixel";
+    font-size: 10px;
+}
+.side-bar {
+    position: absolute;
+    width: 15vw;
+    height: 100%;
+    right: -15vw;
+    top: 0vh;
+    margin:0;
+    
+}
+
+.side-bar .bouton{
+    position: relative;
+    width: 4.5vw;
+    height: 10vh;
+    top: 0vh;
+    left: -4.5vw;
+    background-image: url(Image/engrenage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.side-bar li{
+    text-decoration: none;
+}
+
+.side-bar.open{
+    
+    position: absolute;
+    width: 4vw;
+    height: 10vh;
+    right: 0vw;
+    top: 0vh;
+    margin:0;
+    border: solid 2xp black;
+
+}
+
+.side-bar #fullscreen{
+    background-image: url(Image/Pecran.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -8.5vh;
+    right: -0.6vw;
+    width: 3vw;
+    height: 6.2vh;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 6vh;
+    width: 100%;
+    height: 75vh; 
+}
+
+footer{
+    margin: 0;
+    padding: auto;
+    position: absolute;
+    top:150vh;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(25, 54, 1);
+}
+
+.fin {
+
+	height:30vh;
+ 	width:100vw;
+	display: flex;
+	justify-content: space-around;
+    line-height: 1.6em;
+    position: absolute;
+    top:105vh;
+}
+.fin a {
+    color:rgb(29, 73, 20);
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+.fab{
+    font-size: 4vh;
+}
+
+.fin h2 {
+    color:rgb(29, 73, 20);
+    font-size: 2.4vh;
+}
+.text {
+    color:rgb(29, 73, 20);
+    
+}

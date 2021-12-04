@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator</title>
+    <link rel="stylesheet" href="stylecreator.css">
+</head>
+<body>
+
+    <div class="modecrea">
+        
+        <div class = "buttonsCrea">
+            <button id="verif" class="boutoncrea" onClick="verifCreator()">Verify</button>
+            <button id="reset" class="boutoncrea" onClick="resetcrea()">Reset</button>
+            <button id="Try" class="boutoncrea" onClick="Try()">Try</button>
+        </div>
+        
+        <div id="uniquecreator"></div>
+
+        <div id="creator">
+            <h2 style="line-height: 2;">CREATOR</h2>
+            
+            <div class="allchoix">
+            <div class='choix'>
+            <div class = "case rail2"></div>
+            <div class = "case rail2_pont"></div>
+            <div class = "case rail2_aposer"></div>
+            <div class = "case rail2_droit_begin"></div>
+            </div>
+            <div class='choix'>
+                <div class = "case railt1"></div>
+                <div class = "case railt1_pont"></div>
+                <div class = "case railt1_aposer"></div>
+                <div class = "case herbe"></div>
+                
+            </div> 
+            <div class='choix'>
+                <div class = "case gare1"></div>
+                <div class = "case pont"></div>
+                <div class = "case eau"></div>
+                <div class = "case boueeau1"></div>
+            
+            </div>
+            <div class='choix'>
+                <div class = "case arbre1"></div>
+                <div class = "case rocher"></div>
+                <div class = "case cowboy"></div>
+                <div class = "case "></div>
+            </div>
+            </div>
+            <div class='choix'>
+            <div class="count">Current</div>
+            <div id="currentCrea"></div>
+            </div>
+        </div>
+        
+    </div>   
+
+        <div class="modejeu invisible">
+
+            <div class = "buttonsJeu">
+                <button id="verif" class="boutonjeu" onClick="verif()">Verify</button>
+                <button id="reset" class="boutonjeu" onClick="resetJeu()">Reset</button>
+                <button class="boutonjeu" onClick="GoCrea()">Creator</button>
+            </div>
+
+            <div id="uniquejeu"></div>
+        
+            <div id="inventaire">
+                <h2>INVENTORY</h2>
+                <div>
+                <div id="nbrail1" class="case count"></div>
+                <div id ='select1' class = "case rail1"></div>
+                </div>
+                <div>
+                <div id= "nbrail2" class=" case count"></div>
+                <div id= 'select2' class = "case railt1"></div>
+                </div>
+                <div>
+                <div class="count">Current</div>
+                <div id="currentJeu"></div>
+                </div>
+            </div>
+
+        </div>
+    <div id="test"></div>
+    <div id="test2"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="projetecreator.js"></script>
+</body>
+</html>

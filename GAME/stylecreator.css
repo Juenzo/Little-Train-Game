@@ -1,0 +1,558 @@
+@font-face {
+    font-family: "Pixel";
+    src: url("fonts/Fipps-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .modecrea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.5%;
+  }
+  
+  .invisible{
+    visibility: hidden;
+  }
+  
+  .modejeu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.5%;
+  }
+  
+  td{
+    width: 3.8vw;
+    height: 4vw;
+    background-color: white;
+    background-image: url(img/herbe.png);
+    background-size: 100% 100%;
+  }
+  
+  .tableCrea{
+    border-collapse: collapse;
+    margin-left: auto;
+  }
+  
+  .tableJeu{
+    border-collapse: collapse;
+    margin-left: auto;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/fond.png);
+    background-size: 100% 100%;
+    color: transparent;
+  }
+  
+  #vide {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: solid thin red;
+    text-align: center;
+  }
+  
+  
+  .case{
+    position: relative;
+    top: 2vh;
+    width: 4.55vw;
+    height: 4.55vw;
+    margin:1vh;
+    flex-shrink: 0;
+  }
+  .herbe{
+    background-image: url(img/herbe.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .arbre1{
+    background-image: url(img/Arbre1.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rocher{
+    
+    background-image: url(img/Herbe-rocher.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail1{
+    background-image: url(img/Rail_droit.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail2{
+    background-image: url(img/Rail_droit2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail1_pont{
+    background-image: url(img/Rail1_pont.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail2_pont{
+    background-image: url(img/Rail2_pont.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail1_aposer{
+    background-image: url(img/Rail_droit_aposer.png);
+    
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail2_aposer{
+    background-image: url(img/Rail_droit2_aposer.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail1G{
+    background-image: url(img/Rail_droitG.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail2G{
+    background-image: url(img/Rail_droitG2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt1{
+    background-image: url(img/Rail_tourne.png);
+  
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt2{
+    background-image: url(img/Rail_tourne2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt3{
+    background-image: url(img/Rail_tourne3.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt4{
+    background-image: url(img/Rail_tourne4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt1_pont{
+    background-image: url(img/Rail_tourne_pont.png);
+  
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt2_pont{
+    background-image: url(img/Rail_tourne2_pont.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt3_pont{
+    background-image: url(img/Rail_tourne3_pont.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt4_pont{
+    background-image: url(img/Rail_tourne4_pont.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt1_aposer{
+    background-image: url(img/Rail_tourne_aposer.png);
+  
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt2_aposer{
+    background-image: url(img/Rail_tourne2_aposer.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt3_aposer{
+    background-image: url(img/Rail_tourne3_aposer.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt4_aposer{
+    background-image: url(img/Rail_tourne4_aposer.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt1G{
+    background-image: url(img/Rail_tourneG1.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt2G{
+    background-image: url(img/Rail_tourneG2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt3G{
+    background-image: url(img/Rail_tourneG3.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .railt4G{
+    background-image: url(img/Rail_tourneG4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail1_droit_begin{
+    background-image: url(img/Rail_droit_begin.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail1_droit_finish{
+    background-image: url(img/Rail_droit_finish.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail2_droit_begin{
+    background-image: url(img/Rail_droit2_begin.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .rail2_droit_finish{
+    background-image: url(img/Rail_droit2_finish.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .gare1{
+    background-image: url(img/Gare1.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .gare2{
+    background-image: url(img/Gare2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .pont{
+    background-image: url(img/Pont.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .eau{
+    background-image: url(img/Eau.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .herbeeau1{
+    background-image: url(img/Herbe-Eau.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .herbeeau1_2{
+    background-image: url(img/Herbe-Eau1.2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .herbeeau1_4{
+    background-image: url(img/Herbe-Eau1.4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .herbeeau1_5{
+    background-image: url(img/Herbe-Eau1.5.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .herbeeau1_7{
+    background-image: url(img/Herbe-Eau1.7.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .herbeeau1_8{
+    background-image: url(img/Herbe-Eau1.8.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .herbeeau2{
+    background-image: url(img/Herbe-Eau2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .herbeeau2_2{
+    background-image: url(img/Herbe-Eau2.2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .herbeeau2_3{
+    background-image: url(img/Herbe-Eau2.3.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .herbeeau2_4{
+    background-image: url(img/Herbe-Eau2.4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .boueeau1{
+    background-image: url(img/boue-eau1.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .boueeau2{
+    background-image: url(img/boue-eau2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .boueeau3{
+    background-image: url(img/boue-eau3.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .boueeau4{
+    background-image: url(img/boue-eau4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .cowboy{
+    background-image: url(img/Cowboy.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  .allchoix{
+    border-radius: 10px;
+    width: 27vw;
+    height: 25vw;
+    background-color: rgba(24, 23, 22, 0.5);
+    
+  }
+  #creator{
+    background-color: rgba(72, 68, 64, 0.5);
+    border-radius: 10px;
+    margin: 0.5vw;
+    height: 90vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Pixel';
+    text-shadow: 0px 0px 1px black;
+    margin:1.5%;
+  }
+  
+  #inventaire{
+    background-color: rgba(72, 68, 64, 0.5);
+    border-radius: 10px;
+    background-repeat: repeat-y;
+    height: 87vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Pixel';
+    text-shadow: 0px 0px 1px black;
+    margin-left: 2.5%;
+  }
+  
+  #presentation{
+    height: 90vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Pixel';
+    margin: 1.5%;
+    margin-bottom: 5%;
+  }
+  
+  .Lecurrent{
+    font-family: 'Pixel';
+    background-color: rgba(72, 68, 64, 0.5);
+    border-radius: 10px;
+    height: 155vh;
+    width: 20vw;
+    margin-top: 10%;
+  }
+  
+  .boutonjeu{
+    font-family: 'Pixel';
+    background-color: rgba(72, 68, 64, 0.5);
+    height: 30vh;
+    width: 7vw;
+    margin-top: 10%;
+  }
+  
+  .buttonsJeu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+  }
+  
+  .boutoncrea{
+    font-family: 'Pixel';
+    background-color: rgba(72, 68, 64, 0.5);
+    height: 30vh;
+    width: 7vw;
+    margin-top: 10%;
+  }
+  
+  .buttonsCrea{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+  }
+  
+  .count{
+    display: flex;
+    justify-content: center;
+    width: 4.55vw;
+    height: 4.55vw;
+  }
+  
+  #currentCrea{
+    display: flex;
+    justify-content: center;
+    width: 4.55vw;
+    height: 4.55vw;
+    border: 1px solid black;
+  }
+  
+  #currentJeu{
+    display: flex;
+    justify-content: center;
+    width: 4.55vw;
+    height: 4.55vw;
+    border: 1px solid black;
+  }
+  
+  
+  
+  
+  .over{
+    position: absolute;
+    top:20vh;
+    border: 5px solid black;
+    background-color:  rgba(72, 68, 64, 0.5);
+    font-family: 'Pixel';
+    text-shadow: 0px 0px 1px red;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .youlost{
+    position: absolute;
+    top:20vh;
+    border: 5px solid black;
+    background-color:  rgba(72, 68, 64, 0.5);
+    font-family: 'Pixel';
+    text-shadow: 0px 0px 1px red;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .win{
+    position: absolute;
+    top:20vh;
+    border: 5px solid black;
+    background-color:  rgba(72, 68, 64, 0.5);
+    font-family: 'Pixel';
+    text-shadow: 0px 0px 1px black;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .youwin{
+    position: absolute;
+    top:20vh;
+    border: 5px solid black;
+    background-color:  rgba(72, 68, 64, 0.5);
+    font-family: 'Pixel';
+    text-shadow: 0px 0px 1px black;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  
+  .next{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .choix{
+    width: 100%;
+    margin: 1vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
