@@ -1,0 +1,26 @@
+﻿  source.c
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(140,13): warning C4047: 'return' : les niveaux d'indirection de 'int' et de 'int (*)[10]' sont différents
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(309,122): warning C4018: '>=' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(333,121): warning C4018: '>=' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(566,17): warning C4047: 'return' : les niveaux d'indirection de 'int' et de 'int (*)[10]' sont différents
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(595,20): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(596,21): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(636,20): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(645,20): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(654,20): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(663,20): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(684,20): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(685,21): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(692,21): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(693,22): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(714,13): warning C4477: 'printf_s' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type 'unsigned __int64'
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(714,13): message : utilisez '%lld' dans la chaîne de format
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(714,13): message : utilisez '%I64d' dans la chaîne de format
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(723,13): warning C4477: 'printf_s' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type 'unsigned __int64'
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(723,13): message : utilisez '%lld' dans la chaîne de format
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(723,13): message : utilisez '%I64d' dans la chaîne de format
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(729,22): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(730,23): warning C4018: '<' : incompatibilité signed/unsigned
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(740,17): warning C4047: 'return' : les niveaux d'indirection de 'int' et de 'int (*)[10]' sont différents
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\source.c(680,6): warning C4101: 'tabtmp' : variable locale non référencée
+  ConsoleApplication1.vcxproj -> D:\PROJET FIN\solveur\test2\ConsoleApplication1\Debug\ConsoleApplication1.exe

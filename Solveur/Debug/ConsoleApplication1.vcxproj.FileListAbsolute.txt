@@ -1,0 +1,2 @@
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\Debug\ConsoleApplication1.exe
+D:\PROJET FIN\solveur\test2\ConsoleApplication1\Debug\ConsoleApplication1.pdb
